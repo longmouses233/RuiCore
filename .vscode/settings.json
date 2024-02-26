@@ -1,0 +1,10 @@
+{
+    // 把efro包括进去,可以自动填充了！
+    "python.analysis.extraPaths": [
+        "./dist/ba_data/python"
+    ],
+    // 让烦人的找不到_ba模块滚蛋！
+    "python.analysis.diagnosticSeverityOverrides": {  
+        "reportMissingImports": "none"  
+    }  
+}
